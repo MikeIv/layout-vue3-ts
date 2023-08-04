@@ -21,8 +21,9 @@ const props = defineProps({
 Test function
  */
 
-const { numArr } = useTestFunc();
+const { numArr, test } = useTestFunc();
 console.log('numArr', numArr)
+console.log('test', test)
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
